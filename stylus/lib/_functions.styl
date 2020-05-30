@@ -1,0 +1,18 @@
+
+// Reto cumplido
+
+flags = ec, co, us, es, ar
+
+.wrapper
+  display: flex
+  width: 100px
+  margin: 0 auto
+  justify-content: space-between
+
+[class^='.flag-']
+  background-image: url('../../flag.svg')
+  background-size: 10px 5px
+
+for flag, i in flags  // Aquí tomará en flag los nombres de la lista y en i la posición de cada una
+  .flag-{flag}
+    background-position: 10px*i 0

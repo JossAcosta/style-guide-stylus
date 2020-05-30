@@ -1,0 +1,200 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section,
+margin-bottom 24px,
+mixin-max-width(90%),
+.section--landing {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div {
+  text-color: #000;
+  background: #fff;
+}
+.wrapper {
+  display: flex;
+  width: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+[class^='.flag-'] {
+  background-image: url("../../flag.svg");
+  background-size: 10px 5px;
+}
+.flag-ec {
+  background-position: 0px 0;
+}
+.flag-co {
+  background-position: 10px 0;
+}
+.flag-us {
+  background-position: 20px 0;
+}
+.flag-es {
+  background-position: 30px 0;
+}
+.flag-ar {
+  background-position: 40px 0;
+}
+html {
+  background: color-background;
+  font-size: 87.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 18px;
+  width: 100%;
+  background-color: transparent;
+  font-famiy: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: color-blank;
+}
+.block {
+  max-width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+  backgorund-color: #fff;
+  position: relative;
+}
+.block__body {
+  padding: 24px;
+  background-color: #fff;
+  position: relative;
+}
+.block__title {
+  background-color: #fff;
+  padding: 24px;
+  font-size: 28px;
+  font-weigth: bold;
+  color: #dbd879;
+  border-bottom: 1px solid #bfbfbf;
+}
+.btn {
+  display: inline-block;
+  width: auto;
+  line-height: 2.5;
+  color: buttoncolor;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: buttonbackground;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 2.2em;
+  padding-left: 2.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  transition: all 0.2s ease-in;
+  border: none;
+/*
+  ** Secondary buttons
+  */
+}
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ea83ee;
+  cursor: pointer;
+}
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+.btn.btn--secondary {
+  background-color: #fff;
+  color: #ea83ee;
+}
+.btn.btn--secondary:hover {
+  background-color: #ea83ee;
+  color: #fff;
+}
+.btn--disable {
+  cursor: not-allowed;
+  background-color: #808080;
+  color: #fff;
+  border-color: #808080;
+}
+.btn--disable:visited {
+  background-color: #808080;
+  color: #808080;
+}
+.btn--disable:hover {
+  cursor: not-allowed;
+  color: #fff;
+  background-color: #808080;
+  border-color: #676767;
+}
+.btn--error,
+.btn--error:visited {
+  color: #da4f49;
+  border-color: #d3d3d3;
+}
+.btn--error:hover,
+.btn--error:visited:hover {
+  background-color: #da4f49;
+  color: #fff;
+}
+.btn--info,
+btn--info:visited {
+  color: #ea83ee;
+  border-color: #ea83ee;
+}
+.btn--info:hover,
+btn--info:visited:hover {
+  background-color: #ea83ee;
+  color: #fff;
+}
+.pseudoelement {
+  font-size: 16px;
+  width: 300px;
+}
+.pseudoelement:before {
+  content: "hola";
+}
+.ie-8 .pseudoelement:before {
+  content: "ciao";
+}
+.ie-8 .pseudoelement img {
+  margin-bottom: 0;
+}
+body,
+.redtext {
+  color: #f00;
+  text-decoration: underline;
+}
+body >.primerhijo,
+.redtext >.primerhijo {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.btn {
+  background-color: #ffc0cb;
+  border-radius: 2px;
+}
+.btn--alert {
+  background-color: #f00;
+}
+.btn--alert {
+  background-color: #f00;
+}
+p {
+  font-size: 16px;
+}
